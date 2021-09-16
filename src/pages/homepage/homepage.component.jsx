@@ -1,11 +1,11 @@
-import './homepage.styles.scss'
 import Directory from '../../components/directory/directory.component';
+import { HopPageContainer } from './homepage.styles';
 
 const HomePage = () => {
   return (
-    <div className="homepage">
+    <HopPageContainer>
       <Directory />
-    </div>
+    </HopPageContainer>
   );
 };
 
